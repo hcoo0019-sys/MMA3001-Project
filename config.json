@@ -1,0 +1,37 @@
+{
+    "model_name": "Regularized Upgraded Neural Network",
+    "model_type": "nonlinear_deep_neural_network",
+    "architecture": {
+        "input_dim": 15,
+        "hidden_layers": [
+            128,
+            64,
+            32
+        ],
+        "activation": "Mish",
+        "dropout": 0.15,
+        "output_dim": 1
+    },
+    "feature_columns": [
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9",
+        "sensor_11",
+        "sensor_12",
+        "sensor_13",
+        "sensor_14",
+        "sensor_15",
+        "sensor_17",
+        "sensor_20",
+        "sensor_21"
+    ],
+    "max_rul": 361.0,
+    "scaler": "StandardScaler",
+    "warning_rul_threshold": 20,
+    "false_warning_actual_rul_threshold": 40,
+    "eligible_engine_rul_threshold": 20
+}
