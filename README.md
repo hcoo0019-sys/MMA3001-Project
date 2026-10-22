@@ -8,6 +8,8 @@ Then, press "run all" and input your engine data as prompted.
 
 You will then be provided a list of estimated RUL's and a warning issued if RUL is less than or equal to 20.
 
+Accepted Inputs:
+
 The computational solution accepts engine operating data from a CSV or whitespace-delimited text file. Each observation must contain 26 numerical columns: an engine identifier, an operating cycle number, three operating settings and 21 sensor measurements. Engine identifiers and cycle numbers must be positive integers, and each engine-cycle combination must be unique. The operating settings and sensor measurements must be consistent with the NASA C-MAPSS dataset. 
 
 ## AI Statement
