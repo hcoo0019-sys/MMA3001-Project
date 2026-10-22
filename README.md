@@ -4,7 +4,7 @@ First download the ZIP file and extract to a location of your choosing.
 
 Next, open Google Colab and upload these files to the main /content/ directory.
 
-Next, import and open "Prediction_Demo.ipynb".
+Next, import and open "Prediction_Demo.ipynb" in google colab.
 
 Then, press "run all" and input your engine data as prompted.
 
