@@ -6,7 +6,7 @@ Next, open Google Colab and upload these files to the main /content/ directory.
 
 Next, import and open "Prediction_Demo.ipynb" in google colab.
 
-Then, press "run all" and input your engine data as prompted.
+Then, press "run all" and input your engine data as prompted. An example input CSV file has been provided, where sensor data can be added individually. The corresponding ranges that each sensor was trained on is provided in the column headers to assist in this process.
 
 You will then be provided a list of estimated RUL's and a warning issued if RUL is less than or equal to 20.
 
